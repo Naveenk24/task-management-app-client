@@ -1,0 +1,73 @@
+.popup-container {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 300px;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.add-task-heading {
+  font-weight: 700;
+}
+
+.add-task-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.add-input-label {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.add-input-element {
+  width: 286px;
+  height: 24px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.text-area {
+  outline: none;
+}
+
+.popup-close-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.add-input-button,
+.close-input-button {
+  background-color: #3273f5;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  height: 26px;
+  width: 80px;
+  margin-left: 6px;
+}
+
+.add-icon-button {
+  border: none;
+  background-color: transparent;
+}
+
+.add-icon {
+  font-size: 25px;
+}

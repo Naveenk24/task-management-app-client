@@ -1,0 +1,16 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-products-container {
+  height: 87vh;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-products-container {
+    flex-direction: column;
+  }
+}

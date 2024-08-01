@@ -1,0 +1,76 @@
+.tasks-item {
+  background-color: #ffffff;
+  width: 30%;
+  border-radius: 5px;
+  height: 129px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+  list-style-type: none;
+  margin-bottom: 15px;
+  margin-right: 9px;
+  touch-action: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tasks-item {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+.task-item-title {
+  margin-bottom: 0px;
+
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.task-item-description {
+  font-size: 13px;
+  color: #757575;
+  line-height: 15px;
+}
+
+.task-item-icons-container {
+  line-height: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item-incomplete {
+  background-color: #f76566;
+  border: none;
+  width: 120px;
+  height: 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.task-item-status {
+  background-color: rgb(6, 134, 55);
+  border: none;
+  width: 120px;
+  height: 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.task-item-like {
+  color: rgb(243, 100, 226);
+}
+
+.task-item-button {
+  background-color: transparent;
+  border: none;
+}
+
+.task-item-icons {
+  font-size: 18px;
+}
